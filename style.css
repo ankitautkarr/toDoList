@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@
 body {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to bottom, #68eacc 0%, #497be8 100%);
+  background: linear-gradient(to bottom, #026846 0%, #d8e849 100%);
 }
 
 .wrapper {
@@ -26,6 +27,7 @@ body {
   font-weight: 600;
   text-align: center;
   padding-bottom: 0.5rem;
+  color: #024e2e;
 }
 
 .wrapper .inputField {
@@ -38,7 +40,7 @@ body {
 .wrapper input {
   width: 85%;
   height: 100%;
-  border: 1px solid #8e49e8;
+  border: 1px solid #024e2e;
   border-radius: 3px;
   font-size: 17px;
   padding-left: 15px;
@@ -50,11 +52,11 @@ body {
   height: 100%;
   border: none;
   outline: none;
-  background: #8e49e8;
+  background: #009c41;
   color: #fff;
   font-size: 22px;
   cursor: pointer;
-  border-radius: 5px;
+  border-bottom-left-radius: 0.8rem;
   margin-left: 5px;
 }
 
@@ -62,9 +64,10 @@ body {
   max-height: 250px;
   overflow-y: auto;
 }
+
 .todolist li {
   list-style: none;
-  height: 45px;
+  height: auto;
   line-height: 45px;
   position: relative;
   background: #fff;
@@ -72,23 +75,24 @@ body {
   margin-bottom: 8px;
   padding: 0 15px;
   cursor: default;
+  max-width: 200px;
+  word-wrap: break-word;
 }
 
-.todolist li span {
+.delete {
   position: absolute;
   right: 45px;
   color: red;
-  /*width: 40px;
+  /* width: 40px;
   height: 40px; 
   text-align: center; 
-  background: #e74c3c; 
+  background: #fff; 
   border-radius: 0 3px 3px 0;  */
   cursor: pointer;
-  transition: all 1.5s ease;
-}
+  transition: all 1s ease;
+  padding-top: 13px ;
+  right:-100px;
 
-.todolist li:hover span {
-  right: 0px;
 }
 
 .wrapper .footer {
@@ -97,15 +101,17 @@ body {
   align-items: center;
   margin-top: 26px;
   justify-content: space-between;
+  font-weight: 500;
 }
 
 .footer button {
   border: none;
   outline: none;
-  background: #8e49e8;
+  background: #009c41;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
   border-bottom-left-radius: 1rem;
   padding: 6px 10px;
+
 }
