@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
-</head>
-<body>
-    <h1>Here is the basic To Do List App</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5d344fce33.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>To-Do List</header>
+      <div class="inputField">
+        <input id="input" type="text" placeholder="Type your task here" />
+        <button onclick="clickHandler()"><i class="fas fa-plus"></i></button>
+      </div>
+      <ul class="todolist">
+        <hr />
+        <li>
+          Buy a new gaming laptop<span><i class="fas fa-trash"></i></span>
+        </li>
+        <hr />
+        <!-- <li>
+                Complete Previous Task<span><i class="fas fa-trash"></i></span>
+            </li>
+            <hr>
+            <li>
+                Create a new vedio for YouTube<span><i class="fas fa-trash"></i></span>
+            </li>
+            <hr>
+            <li>
+                Create a new Portfolio site<span><i class="fas fa-trash"></i></span>
+            </li>
+            <hr>
+             -->
+      </ul>
+      <div class="footer">
+        <span>You have 4 pending taska</span>
+        <button>Clear All</button>
+      </div>
+    </div>
+  </body>
 </html>
