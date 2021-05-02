@@ -40,7 +40,7 @@ body {
 .wrapper input {
   width: 85%;
   height: 100%;
-  border: 1px solid #024e2e;
+  border: 1px solid rgb(1, 46, 12);
   border-radius: 3px;
   font-size: 17px;
   padding-left: 15px;
@@ -52,7 +52,7 @@ body {
   height: 100%;
   border: none;
   outline: none;
-  background: rgb(1, 40, 20);
+  background: #009c41;
   color: #fff;
   font-size: 22px;
   cursor: pointer;
@@ -75,7 +75,6 @@ body {
   margin-bottom: 8px;
   padding: 0 15px;
   cursor: default;
-  /* max-width: 200px; */
   overflow-wrap: break-word;
   width: 100%;
 }
@@ -102,7 +101,7 @@ body {
 .footer button {
   border: none;
   outline: none;
-  background: rgb(1, 40, 20);
+  background: #009c41;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
