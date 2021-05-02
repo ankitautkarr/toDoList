@@ -52,7 +52,7 @@ body {
   height: 100%;
   border: none;
   outline: none;
-  background: #009c41;
+  background: rgb(1, 40, 20);
   color: #fff;
   font-size: 22px;
   cursor: pointer;
@@ -102,7 +102,7 @@ body {
 .footer button {
   border: none;
   outline: none;
-  background: #009c41;
+  background: rgb(1, 40, 20);
   color: #fff;
   font-size: 16px;
   cursor: pointer;
