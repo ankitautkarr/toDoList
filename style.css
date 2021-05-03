@@ -84,7 +84,7 @@ body {
   color: red;
   cursor: pointer;
   transition: all 1.5s ease;
-  padding-top: 13px ;
+  padding-top: 13px;
   padding-left: 85%;
 
 }
@@ -110,7 +110,6 @@ body {
 
 }
 
-li:hover{
+li:hover {
   background-color: lightgrey;
 }
-
