@@ -9,8 +9,8 @@ function clickHandler() {
     let li = document.createElement('li');
     li.setAttribute('id', `li${count}`);
     li.innerHTML = `<i class="fas fa-trash delete" id = "del${count}"></i>`;
-    document.getElementById('todolist').appendChild(li);
-    var t = document.createTextNode(output.value);
+    // document.getElementById('todolist').appendChild(li);
+    let t = document.createTextNode(output.value);
     li.appendChild(t);
     document.getElementById('todolist').appendChild(li);
     let del = document.getElementById(`del${count}`);
@@ -28,7 +28,6 @@ function pendingTask(array) {
 function onClickClearAll() {
   count = 0;
   toDoListTemp = [];
-  toDoList = [];
   pendingTask(toDoListTemp);
   let parentEl = document.getElementById('todolist');
   while (parentEl.firstChild) {
